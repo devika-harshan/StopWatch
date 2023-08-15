@@ -31,7 +31,7 @@ cd stopwatch-flutter-app
 
 
 3.Install dependencies:
-
+```bash
 flutter pub get
 
 
