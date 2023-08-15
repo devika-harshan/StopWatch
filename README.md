@@ -31,17 +31,17 @@ A simple Flutter stopwatch application that allows users to capture and display 
 cd stopwatch-flutter-app
  ```
 
-3.Install dependencies:
+1.Clone this repository:
 
 ```bash
 git clone https://github.com/devika-harshan/StopWatch.git
  ```
 
 
-4.Run the app:
+2.Navigate to the project directory:
 
 ```bash
-flutter run
+cd stopwatch-flutter-ap
  ```
 
 
