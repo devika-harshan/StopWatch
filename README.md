@@ -18,18 +18,6 @@ A simple Flutter stopwatch application that allows users to capture and display 
 
 ## Getting Started
 
-1. Clone this repository:
-
- ```bash
-   git clone https://github.com/devika-harshan/StopWatch.git
-   
-
-
-2.Navigate to the project directory:
-
-```bash
-cd stopwatch-flutter-app
- ```
 
 1.Clone this repository:
 
