@@ -34,7 +34,7 @@ cd stopwatch-flutter-app
 3.Install dependencies:
 
 ```bash
-flutter pub get
+git clone https://github.com/devika-harshan/StopWatch.git
  ```
 
 
