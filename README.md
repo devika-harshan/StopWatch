@@ -23,11 +23,12 @@ A simple Flutter stopwatch application that allows users to capture and display 
    ```bash
    git clone https://github.com/devika-harshan/StopWatch.git
    
+
 2.Navigate to the project directory:
 
-  ```bash
-    cd stopwatch-flutter-app
-     ```
+```bash
+cd stopwatch-flutter-app
+ ```
 
 
 3.Install dependencies:
@@ -35,14 +36,6 @@ A simple Flutter stopwatch application that allows users to capture and display 
 ```bash
 flutter pub get
  ```
-
-
-4.Run the app:
-
-```bash
-flutter run
- ```
-
 
 
 4.Run the app:
