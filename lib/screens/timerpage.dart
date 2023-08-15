@@ -18,20 +18,7 @@ class _TimerPageState extends State<TimerPage> {
   late Timer _timer;
   String _result = '00:00:00';
 
-  // List<BoxShadow> _boxShadowList = [
-  //   BoxShadow(
-  //     color: Colors.grey,
-  //     offset: const Offset(0.0, 0.0),
-  //     blurRadius: 3.0,
-  //     spreadRadius: 4.0,
-  //   ),
-  //   BoxShadow(
-  //     color: Colors.white,
-  //     spreadRadius: -10,
-  //     blurRadius: 10,
-  //     offset: Offset(0, 0),
-  //   ),
-  // ];
+ 
 
   void _start() {
     _timer = Timer.periodic(const Duration(milliseconds: 30), (Timer t) {
