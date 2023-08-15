@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
+
 
 class SplashScreenPage extends StatelessWidget {
   const SplashScreenPage({super.key});
