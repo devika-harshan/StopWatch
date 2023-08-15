@@ -12,7 +12,7 @@ A simple Flutter stopwatch application that allows users to capture and display 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![page1](https://github.com/devika-harshan/StopWatch/assets/85967317/80b3ca93-0dfb-4918-8a4a-21c689121cb6)
 ![Screenshot 2](screenshots/screenshot2.png)
 ![Screenshot 3](screenshots/screenshot3.png)
 
