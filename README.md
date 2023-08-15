@@ -27,18 +27,18 @@ A simple Flutter stopwatch application that allows users to capture and display 
 
   ```bash
     cd stopwatch-flutter-app
- ```bash
+     ```
 
 
 3.Install dependencies:
 
 ```bash
 flutter pub get
- ```bash
+ ```
 
 
 4.Run the app:
 
 ```bash
 flutter run
- ```bash
+ ```
