@@ -31,6 +31,18 @@ A simple Flutter stopwatch application that allows users to capture and display 
 cd stopwatch-flutter-app
  ```
 
+3.Install dependencies:
+
+```bash
+flutter pub get
+ ```
+
+
+4.Run the app:
+
+```bash
+flutter run
+ ```
 
 
 3.Install dependencies:
