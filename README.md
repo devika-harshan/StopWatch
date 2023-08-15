@@ -20,7 +20,7 @@ A simple Flutter stopwatch application that allows users to capture and display 
 
 1. Clone this repository:
 
-   ```bash
+```bash
    git clone https://github.com/devika-harshan/StopWatch.git
    
 
