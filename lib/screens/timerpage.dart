@@ -16,14 +16,12 @@ class _TimerPageState extends State<TimerPage> {
   String buttonText = 'Start';
   final Stopwatch _stopwatch = Stopwatch();
   late Timer _timer;
-  String _result = '00:00:00';
+  String _finalTime = '00:00:00';
 
- 
-
-  void _start() {
+  void _startTimer() {
     _timer = Timer.periodic(const Duration(milliseconds: 30), (Timer t) {
       setState(() {
-        _result =
+        _finalTime =
             '${_stopwatch.elapsed.inMinutes.toString().padLeft(2, '0')}:${(_stopwatch.elapsed.inSeconds % 60).toString().padLeft(2, '0')}:${(_stopwatch.elapsed.inMilliseconds % 100).toString().padLeft(2, '0')}';
       });
     });
@@ -36,12 +34,12 @@ class _TimerPageState extends State<TimerPage> {
     );
   }
 
-  void _stop() async {
+  void _stopTimer() async {
     _timer.cancel();
     _stopwatch.stop();
     await FirebaseFirestore.instance.collection('Users').add({
       'uname': widget.currentUser,
-      'time': _result,
+      'time': _finalTime,
     });
   }
 
@@ -50,11 +48,11 @@ class _TimerPageState extends State<TimerPage> {
       switch (buttonText) {
         case 'Start':
           buttonText = 'Stop';
-          _start();
+          _startTimer();
           break;
         case 'Stop':
           buttonText = 'Save';
-          _stop();
+          _stopTimer();
           break;
         case 'Save':
           Navigator.push(
@@ -104,7 +102,7 @@ class _TimerPageState extends State<TimerPage> {
             top: 240.0,
             left: 110.0,
             child: Text(
-              _result,
+              _finalTime,
               style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
             ),
           ),
