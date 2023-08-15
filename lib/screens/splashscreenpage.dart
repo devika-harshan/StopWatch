@@ -5,12 +5,12 @@ class SplashScreenPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Set your desired background color
+      backgroundColor: Colors.white, 
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 60.0),
           child: Image.asset('images/stopwatchlogo.PNG'),
-        ), // Load the image
+        ), 
       ),
     );
   }
