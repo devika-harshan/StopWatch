@@ -81,14 +81,16 @@ class _TimerPageState extends State<TimerPage> {
       body: Stack(
         children: <Widget>[
           Positioned(
-            top: 110,
+            top: 90,
             left: 25,
+            right: 25,
             child: Container(
                 height: 310, child: Image.asset('images/Wristwatch.png')),
           ),
           Positioned(
-            top: 148,
+            top: 128,
             left: 63,
+            right: 63,
             child: Container(
               width: 235.0,
               height: 235.0,
@@ -99,16 +101,18 @@ class _TimerPageState extends State<TimerPage> {
             ),
           ),
           Positioned(
-            top: 240.0,
+            top: 220.0,
             left: 110.0,
+            right: 110.0,
             child: Text(
               _finalTime,
               style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
             ),
           ),
           Positioned(
-            left: 86,
-            bottom: 90,
+            left: 60,
+            right: 60,
+            top: 440,
             child: ElevatedButton(
               style: ktimerbtnstyle,
               onPressed: _onButtonPressed,
