@@ -42,3 +42,11 @@ flutter pub get
 ```bash
 flutter run
  ```
+
+
+
+4.Run the app:
+
+```bash
+flutter run
+ ```
